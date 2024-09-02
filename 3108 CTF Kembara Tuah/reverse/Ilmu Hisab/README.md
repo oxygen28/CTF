@@ -30,6 +30,7 @@ To obtain merderka function. We can add `v9 + v10 > 2147483647` which is the *MA
 `v10 = 2147483657 - 1336 = 2147482321`
 
 With that we can reach *merdeka* function which will reveal the flag.
+
 ![](https://i.imgur.com/8hc7wYL.png)
 
 

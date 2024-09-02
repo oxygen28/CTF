@@ -14,6 +14,7 @@ We are given an ELF executable and the NetCat connection to obtain the real flag
 ![](https://i.imgur.com/i8MJf2W.png)
 
 I uploaded the binary to DogBolt to decompile to understand the code and found something interesting. Which is the *Sleep* timer that is being applied given that the character is correct. If the character is wrong, then it will terminate without the *Sleep* timer being imposed. That means, we can exploit this functionality to brute-force the flag, this exploit is also known as Side Channel Attack (watch this [video](https://youtu.be/YRohz9VO1YY?si=P5032ZUSKD6Peuqq) to understand side channel attack)
+
 ![](https://i.imgur.com/sYTFw1z.png)
 
 Now knowing that I asked ChatGPT to help me create a script to perform the attack. I set the flag length to 100 because I'm not sure how long the flag was and I just did it the "dirty" way. The brute-force process took a long time, there should be better solution to this.
@@ -87,4 +88,5 @@ recover_flag(remote_ip, remote_port, known_prefix)
 ```
 
 The flag can be obtained after the brute-force process finished.
+
 ![](https://i.imgur.com/lwCJ9xj.png)

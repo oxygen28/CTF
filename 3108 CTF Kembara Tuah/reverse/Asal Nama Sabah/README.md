@@ -11,6 +11,7 @@ Flag: 3108{S4B4H_S4PP4H}
 We are given an executable file for this challenge. I go ahead and throw the file to [DogBolt](https://dogbolt.org/?id=07d3a82f-ca8a-4e27-bd49-f3956982db49)(great platform to test various decompilers). After decompiling, I chose the Hex-Rays decompiler as it seems to be more readable.
 
 The function that we should put our focus on is this *check_flag* function.
+
 ![](https://i.imgur.com/mAS3f5W.png)
 
 Basically the each character from `s2` will be XORed with each character from `s`. With that I used ChatGPT to help me craft the script to decode the flag.

@@ -13,4 +13,5 @@ We are given a file with a bunch of strings with the flag format. However the hi
 ![](https://i.imgur.com/DeazHnx.png)
 
 Grepping the keyword 1963 shows a match, which means the flag might be correct and it is indeed correct.
+
 ![](https://i.imgur.com/xSKudR6.png)

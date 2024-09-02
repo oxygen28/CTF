@@ -12,4 +12,5 @@ We are given a PDF file that seems to have redacted words. However, the PDF is n
 ![](https://i.imgur.com/4M1bB7U.png)
 
 I just copied the whole text to notepad and find the keyword `3108{` 
+
 ![](https://i.imgur.com/KKSLRcX.png)

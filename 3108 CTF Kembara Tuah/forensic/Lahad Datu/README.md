@@ -9,6 +9,7 @@ Flag: 3108{0P3R4S1_D4UL4T}
 
 ---
 We are given an encrypted Word document. 
+
 ![](https://i.imgur.com/smeTOEU.png)
 
 Without any hint given,  I tried to brute-force the password using JohnTheRipper with common wordlist. The brute-force process was rather quick and I used the password to open the Word document.

@@ -12,4 +12,5 @@ We are given a text file which is full of text, so I go ahead and CTRL+F the fla
 ![](https://i.imgur.com/U5wxgDn.png)
 
 The flag can be obtained.
+
 ![](https://i.imgur.com/28H1xmh.png)
