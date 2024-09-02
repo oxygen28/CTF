@@ -13,7 +13,7 @@ Flag: 3108{s1mpl3_p3ngundur4n}
 We are given an ELF executable and the NetCat connection to obtain the real flag.
 ![](https://i.imgur.com/i8MJf2W.png)
 
-I uploaded the binary to DogBolt to decompile to understand the code and found something interesting. Which is the *Sleep* timer that is being applied given that the character is correct. If the character is wrong, then it will terminate without the *Sleep* timer being imposed. That means, we can exploit this functionality to brute-force the flag, this exploit is also known as Side Channel Attack (watch this [video](https://youtu.be/YRohz9VO1YY?si=P5032ZUSKD6Peuqq) to understand side channel attack)
+I uploaded the binary to [DogBolt](https://dogbolt.org/?id=c3b1ca86-5bbb-4bcd-8552-53b71bf68978#Hex-Rays=156&BinaryNinja=240) to decompile to understand the code and found something interesting. Which is the *Sleep* timer that is being applied given that the character is correct. If the character is wrong, then it will terminate without the *Sleep* timer being imposed. That means, we can exploit this functionality to brute-force the flag, this exploit is also known as Side Channel Attack (watch this [video](https://youtu.be/YRohz9VO1YY?si=P5032ZUSKD6Peuqq) to understand side channel attack)
 
 ![](https://i.imgur.com/sYTFw1z.png)
 
