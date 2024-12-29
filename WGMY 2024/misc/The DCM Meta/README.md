@@ -14,7 +14,7 @@ We are given a file with a `.dcm` extension, but the file itself only contains d
 
 ![](https://i.imgur.com/WyD3cJj.png)
 
-I used [CyberChef](https://cyberchef.org/#recipe=Regular_expression('User%20defined','%5C%5Cw',true,true,false,false,false,false,'List%20matches') to extract all the words. From the indices provided in the description, the largest index is 31, which indicates that the data can only have 32 characters. Therefore, I also removed the padding `WGMY`. The extracted data is: `f63acd3b78127c1d7d3e700b55665354`
+I used [CyberChef](https://cyberchef.org/#recipe=Regular_expression('User%20defined','%5C%5Cw',true,true,false,false,false,false,'List%20matches')) to extract all the words. From the indices provided in the description, the largest index is 31, which indicates that the data can only have 32 characters. Therefore, I also removed the padding `WGMY`. The extracted data is: `f63acd3b78127c1d7d3e700b55665354`
 
 ![](https://i.imgur.com/PjiUmHs.png)
 
