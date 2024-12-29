@@ -41,7 +41,7 @@ Next, we extract the **NTProofStr** and the remaining **NTLM Response Data**:
 ![](https://i.imgur.com/kuT6B27.png)
 
 - **Session ID**: `65000000000c0000`
-  To convert this, use [CyberChef](https://cyberchef.org/#recipe=Swap_endianness('Hex',8,true)Remove_whitespace(true,true,true,true,true,false) &input=MHgwMDAwMGMwMDAwMDAwMDY1) to swap the endianness.
+  To convert this, use [CyberChef](https://cyberchef.org/#recipe=Swap_endianness('Hex',8,true)Remove_whitespace(true,true,true,true,true,false)&input=MHgwMDAwMGMwMDAwMDAwMDY1) to swap the endianness.
 
 ![](https://i.imgur.com/UsAEOKs.png)
 
